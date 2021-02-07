@@ -10,9 +10,7 @@ public class MinLengthSubstring {
             return 0;
         HashMap<Character, Integer> dic = new HashMap<>();
         for (int i = 0; i < t.length(); i++) {
-            Integer counter = dic.getOrDefault(t.charAt(i), 0);
-            counter++;
-            dic.put(t.charAt(i), counter);
+            dic.compute(t.charAt(i), (k, v) -> (v == null) ? 1 : v + 1);
         }
         int min = Integer.MAX_VALUE;
         int l = 0;
