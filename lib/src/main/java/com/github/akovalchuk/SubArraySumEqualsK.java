@@ -1,12 +1,16 @@
 package com.github.akovalchuk;
 
 import java.util.HashMap;
+import java.util.function.BiFunction;
+
 import static java.lang.System.out;
 
 /**
  * 560. Subarray Sum Equals K
  */
 public class SubArraySumEqualsK {
+
+    private static final BiFunction<Integer, Integer, Integer> comp = (k, v) -> v == null ? 1 : v + 1;
     
     public int subarraySum(int[] nums, int k) {
         if (nums == null) return 0;
@@ -19,7 +23,7 @@ public class SubArraySumEqualsK {
             if (sums.containsKey(sum - k)) {
                 count += sums.get(sum - k);
             }
-            sums.compute(sum, (key, val) -> val == null ? 1 : val + 1);
+            sums.compute(sum, comp);
         }
         return count;
     }
