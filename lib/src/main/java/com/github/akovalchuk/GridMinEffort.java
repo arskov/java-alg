@@ -65,6 +65,9 @@ public class GridMinEffort {
             int[] cur = pq.poll();
             int r = cur[0];
             int c = cur[1];
+            if (r == rows - 1 && c == cols - 1) {
+                return dist[r][c];
+            }
             for (int[] dir : dirs) {
                 int nr = r + dir[0];
                 int nc = c + dir[1];
@@ -80,7 +83,7 @@ public class GridMinEffort {
         // for (int[] a : dist) {
         //     System.out.println(Arrays.toString(a));
         // }
-        return dist[rows - 1][cols - 1];
+        return -1;
     }
 
     public static void main(String[] args) {
