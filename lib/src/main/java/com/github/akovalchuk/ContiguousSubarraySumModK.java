@@ -15,7 +15,7 @@ public class ContiguousSubarraySumModK {
         map.put(0, -1);
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
-            key = (k == 0 ? key : key % k);
+            key = (k == 0 ? sum : sum % k);
             if (map.containsKey(key)) {
                 if (i - map.get(key) > 1) return true;
             } else {
@@ -27,8 +27,12 @@ public class ContiguousSubarraySumModK {
 
     public static void main(String[] args) {
         var s = new ContiguousSubarraySumModK();
-        int[] test = {23,2,6,2,5}; int k = 6;
-        System.out.println(s.checkSubarraySum(test, k));
+        int[] test1 = {23,2,6,2,5}; int k1 = 6;
+        System.out.println(s.checkSubarraySum(test1, k1));
+        int[] test2 = {0,1,0}; int k2 = 0;
+        System.out.println(s.checkSubarraySum(test2, k2));
+        int[] test3 = {0,1,2}; int k3 = 3;
+        System.out.println(s.checkSubarraySum(test3, k3));
     }
 
 }
