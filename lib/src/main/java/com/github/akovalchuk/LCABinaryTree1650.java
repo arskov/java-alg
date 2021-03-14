@@ -5,7 +5,7 @@ import java.util.HashSet;
 /**
  * 1650. Lowest Common Ancestor of a Binary Tree III
  */
-public class LCABinaryTree3 {
+public class LCABinaryTree1650 {
 
     static class Node {
         public int  val;

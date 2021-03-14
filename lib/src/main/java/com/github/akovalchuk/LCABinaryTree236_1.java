@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * 236. Lowest Common Ancestor of a Binary Tree
  */
-public class LCABinaryTree1 {
+public class LCABinaryTree236_1 {
 
     static class TreeNode {
         int val;
@@ -83,7 +83,7 @@ public class LCABinaryTree1 {
         tree.right.left = q;
         tree.right.right = new TreeNode(8);
 
-        var sol = new LCABinaryTree1();
+        var sol = new LCABinaryTree236_1();
         System.out.println(sol.lowestCommonAncestor(tree, p, q));
     }
 
