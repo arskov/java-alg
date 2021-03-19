@@ -64,6 +64,8 @@ public class ParenthesesMinRemoveReturn {
 
     public static void main(String[] args) {
         var solution = new ParenthesesMinRemoveReturn();
+        System.out.println(solution.removeInvalidParentheses("((()()()"));
+        System.out.println(solution.removeInvalidParentheses(")()()("));
         System.out.println(solution.removeInvalidParentheses("()())()"));
         System.out.println(solution.removeInvalidParentheses("(a)())()"));
     }
