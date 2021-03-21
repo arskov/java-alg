@@ -31,7 +31,7 @@ public class MergeIntervalsArrayList {
             Pair curr = v.get(i);
             Pair prev = result.get(result.size() - 1);
             if (prev.first < curr.first && curr.first <= prev.second) {
-                prev.second = curr.second;
+                prev.second = Math.max(curr.second, prev.second);
             } else {
                 result.add(curr);
             }
@@ -41,9 +41,13 @@ public class MergeIntervalsArrayList {
     }
 
     public static void main(String[] args) {
-        var test = List.of(
+        var test1 = List.of(
             new Pair(1, 5), new Pair(3, 7), new Pair(4, 6), new Pair(6, 8), new Pair(10, 12), new Pair(12, 15)
         );
-        System.out.println(mergeIntervals(test));
+        System.out.println(mergeIntervals(test1));
+        var test2 = List.of(
+            new Pair(1, 5), new Pair(3, 4), new Pair(5, 6), new Pair(6, 8), new Pair(10, 12), new Pair(12, 15)
+        );
+        System.out.println(mergeIntervals(test2));
     }
 }
