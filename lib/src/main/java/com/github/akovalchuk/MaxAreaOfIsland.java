@@ -15,6 +15,7 @@ public class MaxAreaOfIsland {
     
     public static int maxAreaOfIsland(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) return 0;
+        max = 0;
         int rows = grid.length;
         int cols = grid[0].length;
         for (int i = 0; i < rows; i++) {
