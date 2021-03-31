@@ -8,7 +8,7 @@ import java.util.function.BiFunction;
 /**
  * 438. Find All Anagrams in a String
  */
-public class FindAnagrams {
+public class FindAnagrams1 {
 
     private static final BiFunction<Character, Integer, Integer> inc = (k, v) -> v == null || v == 0 ? 1 : v + 1;
     private static final BiFunction<Character, Integer, Integer> dec = (k, v) -> v - 1;
