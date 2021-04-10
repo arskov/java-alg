@@ -26,7 +26,6 @@ public class FirstSmallestMissingPositive {
                 i++;
             }
         }
-        System.out.println(Arrays.toString(nums));
         if (nums[0] > 1) {
             return 1;
         } else {
@@ -40,13 +39,29 @@ public class FirstSmallestMissingPositive {
                     i++;
                 }
             }
+            System.out.println(Arrays.toString(nums));
             for (i = 1; i < nums.length; i++) {
                 if (nums[i] != i + nums[0])
                     return i + nums[0];
             }
         }
-        System.out.println(Arrays.toString(nums));
         return -1;
+    }
+
+    public static int findNumber2(int[] nums) {
+        int i = 0;
+        while (i < nums.length) {
+            if (nums[i] > 0 && nums[i] <= nums.length && nums[i] != nums[nums[i] - 1])
+                swap(nums, i, nums[i] - 1);
+            else
+                i++;
+        }
+        System.out.println(Arrays.toString(nums));
+        for (i = 0; i < nums.length; i++)
+            if (nums[i] != i + 1)
+                return i + 1;
+
+        return nums.length + 1;
     }
 
     private static void swap(int[] nums, int i, int j) {
@@ -57,8 +72,13 @@ public class FirstSmallestMissingPositive {
 
     public static void main(String[] args) {
         System.out.println(findNumber(new int[] { -3, 1, 5, 4, 2 }));
+        System.out.println(findNumber2(new int[] { -3, 1, 5, 4, 2 }));
         System.out.println(findNumber(new int[] { -3, 1, -5, 4, 2, 3, 7 }));
+        System.out.println(findNumber2(new int[] { -3, 1, -5, 4, 2, 3, 7 }));
         System.out.println(findNumber(new int[] { -3, 1, -5, 4, 2, 3, 0, 7 }));
+        System.out.println(findNumber2(new int[] { -3, 1, -5, 4, 2, 3, 0, 7 }));
+        System.out.println(findNumber(new int[] { 2, 3, 4 }));
+        System.out.println(findNumber2(new int[] { 2, 3, 4 }));
     }
 
 }
