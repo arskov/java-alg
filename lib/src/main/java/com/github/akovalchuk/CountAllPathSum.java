@@ -55,6 +55,6 @@ public class CountAllPathSum {
         root.left.left = new TreeNode(4);
         root.right.left = new TreeNode(10);
         root.right.right = new TreeNode(5);
-        System.out.println("Tree has path: " + CountAllPathSum.countPaths(root, 11));
+        System.out.println("Tree has path: " + countPaths(root, 11));
     }
 }
