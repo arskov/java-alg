@@ -7,7 +7,7 @@ package com.github.akovalchuk;
  */
 public class ReverseEveryAlternateKElements {
 
-    private static class ListNode {
+    public static class ListNode {
         int value = 0;
         ListNode next;
 
