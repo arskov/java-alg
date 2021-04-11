@@ -7,7 +7,7 @@ package com.github.akovalchuk;
  */
 public class RearrangeLinkedList {
     
-    static class ListNode {
+    public static class ListNode {
 
         static int nodeCounter = 1;
 

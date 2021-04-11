@@ -7,7 +7,7 @@ package com.github.akovalchuk;
  */
 public class PalindromicLinkedList {
 
-    static class ListNode {
+    public static class ListNode {
 
         static int nodeCounter = 1;
 

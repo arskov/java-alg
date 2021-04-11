@@ -6,7 +6,8 @@ package com.github.akovalchuk;
  * 142. Linked List Cycle II
  */
 public class LinkedListCycleStart {
-    static class ListNode {
+
+    public static class ListNode {
         int value;
         ListNode next;
 

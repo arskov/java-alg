@@ -5,7 +5,7 @@ package com.github.akovalchuk;
  */
 public class MergeTwoSortedLists {
 
-    private static class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
         ListNode() {}
