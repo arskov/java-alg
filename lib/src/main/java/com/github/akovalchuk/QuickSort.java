@@ -1,6 +1,7 @@
 package com.github.akovalchuk;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class QuickSort {
 
@@ -19,7 +20,8 @@ public class QuickSort {
     }
 
     private static int partition(int[] arr, int s, int e) {
-        int pivot = arr[e];
+        int pi = s + (int) Math.ceil((e - s) * Math.random());
+        int pivot = arr[pi];
         int j = s;
         for (int i = s; i <= e; i++) {
             if (arr[i] < pivot) {
@@ -31,7 +33,7 @@ public class QuickSort {
         }
         int tmp = arr[j];
         arr[j] = pivot;
-        arr[e] = tmp;
+        arr[pi] = tmp;
         return j;
     }
 
