@@ -2,6 +2,7 @@ package com.github.akovalchuk;
 
 import java.util.Arrays;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class QuickSort {
 
@@ -20,7 +21,7 @@ public class QuickSort {
     }
 
     private static int partition(int[] arr, int s, int e) {
-        int pi = s + (int) Math.ceil((e - s) * Math.random());
+        int pi = ThreadLocalRandom.current().nextInt(s + 1, e + 1);
         int pivot = arr[pi];
         int j = s;
         for (int i = s; i <= e; i++) {
