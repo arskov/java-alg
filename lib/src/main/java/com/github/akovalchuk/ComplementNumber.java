@@ -25,7 +25,27 @@ public class ComplementNumber {
         return n;
     }
 
+    private static int msb2(int n) {
+        int p = 0;
+        for (int i = 0; i < 32; i++) {
+            int mask = 1 << i;
+            if ((n & mask) == mask) {
+                p = i;
+            }
+        }
+        return 1 << p;
+    }
+
     public static void main(String args[]) {
+
+        System.out.println(Integer.toBinaryString(10));
+        System.out.println(Integer.toBinaryString(Integer.highestOneBit(10)));
+        System.out.println(Integer.toBinaryString(msb2(10)));
+        System.out.println("--");
+        System.out.println(Integer.toBinaryString((Integer.highestOneBit(10) << 1) - 1));
+        System.out.println(Integer.toBinaryString(msb(10)));
+        System.out.println(Integer.toBinaryString(msb(10) + 1));
+        System.out.println("--");
         System.out.println("Bitwise complement is: " + bitwiseComplement(8)); // 7
         System.out.println("Bitwise complement is: " + bitwiseComplement(10)); // 5
     }
