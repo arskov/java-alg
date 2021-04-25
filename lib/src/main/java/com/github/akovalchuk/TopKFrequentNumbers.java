@@ -12,7 +12,6 @@ import java.util.function.BiFunction;
  * Educative.io. Top 'K' Frequent Numbers (medium)
  * 
  * Leetcode. 347. Top K Frequent Elements
- * Leetcode. 692. Top K Frequent Words
  */
 public class TopKFrequentNumbers {
 
