@@ -6,6 +6,8 @@ import java.util.PriorityQueue;
 
 /**
  * Educative.io. Maximum Distinct Elements (medium)
+ * 
+ * 1481. Least Number of Unique Integers after K Removals
  */
 public class MaximumDistinctElements {
     public static int findMaximumDistinctElements(int[] nums, int k) {
