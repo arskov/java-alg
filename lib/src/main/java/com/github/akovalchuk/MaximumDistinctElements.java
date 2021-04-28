@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * Educative.io. Maximum Distinct Elements (medium)
  * 
- * 1481. Least Number of Unique Integers after K Removals
+ * 1481. Least Number of Unique Integers after K Removals (Similar but a kind of reversed)
  */
 public class MaximumDistinctElements {
     public static int findMaximumDistinctElements(int[] nums, int k) {
@@ -43,6 +43,9 @@ public class MaximumDistinctElements {
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
 
         result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 1, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5 }, 2);
+        System.out.println("Maximum distinct numbers after removing K numbers: " + result);
+
+        result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 4, 3, 1, 1, 3, 3, 2 }, 3);
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
     }
 }
