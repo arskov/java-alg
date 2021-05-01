@@ -13,7 +13,7 @@ public class ExpressionAddOperators {
         if (num == null || num.length() < 2)
             return Collections.emptyList();
         List<String> expr = helper(num);
-        expr.add(num);
+        if (!num.startsWith("0")) expr.add(num);
         var res = new ArrayList<String>();
         for (var ex : expr) {
             if (target == calculate(ex)) 
@@ -92,22 +92,22 @@ public class ExpressionAddOperators {
 
     public static void main(String[] args) {
         var s = new ExpressionAddOperators();
-        // System.out.println(s.calculate("2+3*2"));
-        // var res = s.helper("232");
-        // for (var r : res) {
-        //     System.out.println(r + " = " + s.calculate(r));
-        // }
-        // System.out.println("-----");
-        // var test1 = "232";
-        // var target1 = 8;
-        // System.out.println(s.addOperators(test1, target1));
-        // System.out.println("-----");
-        // var test2 = "105";
-        // var target2 = 5;
-        // System.out.println(s.addOperators(test2, target2));
-        // var test3 = "123";
-        // var target3 = 6;
-        // System.out.println(s.addOperators(test3, target3));
+        System.out.println(s.calculate("2+3*2"));
+        var res = s.helper("232");
+        for (var r : res) {
+            System.out.println(r + " = " + s.calculate(r));
+        }
+        System.out.println("-----");
+        var test1 = "232";
+        var target1 = 8;
+        System.out.println(s.addOperators(test1, target1));
+        System.out.println("-----");
+        var test2 = "105";
+        var target2 = 5;
+        System.out.println(s.addOperators(test2, target2));
+        var test3 = "123";
+        var target3 = 6;
+        System.out.println(s.addOperators(test3, target3));
     }
 
 }
