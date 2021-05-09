@@ -21,7 +21,7 @@ public class MaximumRibbonCut2 {
                 if (j == 0) {
                     dp[i][j] = 0;
                 }
-                if (i == 0 && j > 0 && ribbonLengths[0] <= j) {
+                if (i == 0 && j > 0 && ribbonLengths[0] <= j && dp[i][j - ribbonLengths[0]] != Integer.MIN_VALUE) {
                     dp[i][j] = 1 + dp[i][j - ribbonLengths[0]];
                 }
             }
@@ -35,11 +35,11 @@ public class MaximumRibbonCut2 {
                 dp[i][j] = Math.max(dp[i - 1][j], inc);
             }
         }
-        return dp[len - 1][total];
+        return dp[len - 1][total] == Integer.MIN_VALUE ? -1 : dp[len - 1][total];
     }
 
     public static void main(String[] args) {
-        MaximumRibbonCut1 cr = new MaximumRibbonCut1();
+        MaximumRibbonCut2 cr = new MaximumRibbonCut2();
         int[] ribbonLengths = { 2, 3, 5 };
         System.out.println(cr.countRibbonPieces(ribbonLengths, 5));
         ribbonLengths = new int[] { 2, 3 };
