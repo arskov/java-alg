@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Minimum Coin Change
  */
-public class MinimumCoinChange {
+public class MinCoinChange {
 
     public int countChange(int[] denom, int total) {
         if (denom == null || denom.length == 0)
@@ -36,7 +36,7 @@ public class MinimumCoinChange {
     }
 
     public static void main(String[] args) {
-        MinimumCoinChange cc = new MinimumCoinChange();
+        MinCoinChange cc = new MinCoinChange();
         int[] denominations = { 1, 2, 3 };
         System.out.println(cc.countChange(denominations, 5));
         System.out.println(cc.countChange(denominations, 11));

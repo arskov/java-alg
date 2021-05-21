@@ -10,7 +10,7 @@ package com.github.akovalchuk;
  * 2 steps, or 3 steps. You should assume that you are standing at the first
  * step.
  */
-public class MinimumJumpsWithFee {
+public class MinJumpsWithFee {
     public static int findMinFee(int[] fee) {
         if (fee == null || fee.length == 0)
             return 0;

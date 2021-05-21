@@ -7,7 +7,7 @@ import java.util.Objects;
 /**
  *  1197. Minimum Knight Moves
  */
-public class MinimumKnightMoves2 {
+public class MinKnightMoves2 {
 
     static class Point {
         

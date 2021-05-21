@@ -7,7 +7,7 @@ import java.util.Collections;
 /**
  * 670. Maximum Swap
  */
-public class MaximumSwap {
+public class MaxSwap {
 
     public int maximumSwap(int num) {
         var nums = new ArrayList<Integer>();
@@ -39,7 +39,7 @@ public class MaximumSwap {
     }
 
     public static void main(String[] args) {
-        var s = new MaximumSwap();
+        var s = new MaxSwap();
         System.out.println(s.maximumSwap(21));
         System.out.println(s.maximumSwap(12));
         System.out.println(s.maximumSwap(212));

@@ -8,7 +8,7 @@ package com.github.akovalchuk;
  * above-mentioned possible lengths. Write a method that will return the count
  * of pieces.
  */
-public class MaximumRibbonCut1 {
+public class MaxRibbonCut1 {
 
     public int countRibbonPieces(int[] ribbonLengths, int total) {
         if (ribbonLengths == null || ribbonLengths.length == 0)
@@ -42,7 +42,7 @@ public class MaximumRibbonCut1 {
     }
 
     public static void main(String[] args) {
-        MaximumRibbonCut1 cr = new MaximumRibbonCut1();
+        MaxRibbonCut1 cr = new MaxRibbonCut1();
         int[] ribbonLengths = { 2, 3, 5 };
         System.out.println(cr.countRibbonPieces(ribbonLengths, 5));
         ribbonLengths = new int[] { 2, 3 };

@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
  * 
  * 1481. Least Number of Unique Integers after K Removals (Similar but a kind of reversed)
  */
-public class MaximumDistinctElements {
+public class MaxDistinctElements {
     public static int findMaximumDistinctElements(int[] nums, int k) {
         if (nums == null || nums.length == 0)
             return 0;
@@ -36,16 +36,16 @@ public class MaximumDistinctElements {
     }
 
     public static void main(String[] args) {
-        int result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 7, 3, 5, 8, 5, 3, 3 }, 2);
+        int result = MaxDistinctElements.findMaximumDistinctElements(new int[] { 7, 3, 5, 8, 5, 3, 3 }, 2);
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
 
-        result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 3, 5, 12, 11, 12 }, 3);
+        result = MaxDistinctElements.findMaximumDistinctElements(new int[] { 3, 5, 12, 11, 12 }, 3);
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
 
-        result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 1, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5 }, 2);
+        result = MaxDistinctElements.findMaximumDistinctElements(new int[] { 1, 2, 3, 3, 3, 3, 4, 4, 5, 5, 5 }, 2);
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
 
-        result = MaximumDistinctElements.findMaximumDistinctElements(new int[] { 4, 3, 1, 1, 3, 3, 2 }, 3);
+        result = MaxDistinctElements.findMaximumDistinctElements(new int[] { 4, 3, 1, 1, 3, 3, 2 }, 3);
         System.out.println("Maximum distinct numbers after removing K numbers: " + result);
     }
 }

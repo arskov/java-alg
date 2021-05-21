@@ -6,7 +6,7 @@ package com.github.akovalchuk;
  * Given a string, find the minimum number of characters that we can remove to
  * make it a palindrome.
  */
-public class MinimumDeletionsMakePalindrome {
+public class MinDeletionsMakePalindrome {
 
     public static int findMinimumDeletions(String st) {
         if (st == null || st.isEmpty())

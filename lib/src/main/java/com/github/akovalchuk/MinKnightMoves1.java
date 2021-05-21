@@ -9,7 +9,7 @@ import java.util.Objects;
  * 
  * This is not optimal BFS solution
  */
-public class MinimumKnightMoves1 {
+public class MinKnightMoves1 {
 
     static class Point {
         

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Minimum Difference Element (medium)
  */
-public class MinimumDifference {
+public class MinDifference {
 
     public static int searchMinDiffElement(int[] arr, int key) {
         if (arr == null || arr.length == 0)
@@ -28,9 +28,9 @@ public class MinimumDifference {
     }
 
     public static void main(String[] args) {
-        System.out.println(MinimumDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 7));
-        System.out.println(MinimumDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 4));
-        System.out.println(MinimumDifference.searchMinDiffElement(new int[] { 1, 3, 8, 10, 15 }, 12));
-        System.out.println(MinimumDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 17));
+        System.out.println(MinDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 7));
+        System.out.println(MinDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 4));
+        System.out.println(MinDifference.searchMinDiffElement(new int[] { 1, 3, 8, 10, 15 }, 12));
+        System.out.println(MinDifference.searchMinDiffElement(new int[] { 4, 6, 10 }, 17));
     }
 }

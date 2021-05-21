@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Leetcode. 1200. Minimum Absolute Difference
  */
-public class MinimumAbsDiff {
+public class MinAbsDiff {
 
     public static List<List<Integer>> minimumAbsDifference(int[] arr) {
         if (arr == null || arr.length <= 1)

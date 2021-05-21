@@ -19,7 +19,7 @@ import java.util.Set;
  * find all those roots which give us MHTs. Write a method to find all MHTs of
  * the given graph and return a list of their roots.
  */
-public class MinimumHeightTrees {
+public class MinHeightTrees {
 
     public static List<Integer> findTrees(int nodes, int[][] edges) {
         List<Integer> resultTreeRoots = new ArrayList<>();
@@ -67,15 +67,15 @@ public class MinimumHeightTrees {
     }
 
     public static void main(String[] args) {
-        List<Integer> result = MinimumHeightTrees.findTrees(5,
+        List<Integer> result = MinHeightTrees.findTrees(5,
             new int[][] { new int[] { 0, 1 }, new int[] { 1, 2 }, new int[] { 1, 3 }, new int[] { 2, 4 } });
         System.out.println("Roots of MHTs: " + result);
     
-        result = MinimumHeightTrees.findTrees(4,
+        result = MinHeightTrees.findTrees(4,
             new int[][] { new int[] { 0, 1 }, new int[] { 0, 2 }, new int[] { 2, 3 } });
         System.out.println("Roots of MHTs: " + result);
     
-        result = MinimumHeightTrees.findTrees(4,
+        result = MinHeightTrees.findTrees(4,
             new int[][] { new int[] { 0, 1 }, new int[] { 1, 2 }, new int[] { 1, 3 } });
         System.out.println("Roots of MHTs: " + result);
       }
