@@ -22,11 +22,10 @@ public class MinDeletionsSequenceSorted {
           return memo[prev][next];
         }
         int a = Integer.MAX_VALUE;
-        int b = Integer.MAX_VALUE;
         if (prev == -1 || nums[prev] < nums[next]) {
           a = find(nums, next, next + 1, memo);
         }
-        b = 1 + find(nums, prev, next + 1, memo);
+        int b = 1 + find(nums, prev, next + 1, memo);
         int res = Math.min(a, b);
         if (prev != -1) {
           memo[prev][next] = res;
