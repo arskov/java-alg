@@ -3,9 +3,9 @@ package com.github.akovalchuk;
 import java.util.LinkedList;
 
 /**
- * 236. Lowest Common Ancestor of a Binary Tree
+ * Leetcode. 236. Lowest Common Ancestor of a Binary Tree
  */
-public class LCABinaryTree236_1 {
+public class LCABinaryTree1 {
 
     static class TreeNode {
         int val;
@@ -83,7 +83,7 @@ public class LCABinaryTree236_1 {
         tree.right.left = q;
         tree.right.right = new TreeNode(8);
 
-        var sol = new LCABinaryTree236_1();
+        var sol = new LCABinaryTree1();
         System.out.println(sol.lowestCommonAncestor(tree, p, q));
     }
 

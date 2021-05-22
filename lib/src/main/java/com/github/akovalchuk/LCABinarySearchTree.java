@@ -1,9 +1,9 @@
 package com.github.akovalchuk;
 
 /**
- * 235. Lowest Common Ancestor of a Binary Search Tree
+ * Leetcode. 235. Lowest Common Ancestor of a Binary Search Tree
  */
-public class LCABinarySearchTree235 {
+public class LCABinarySearchTree {
 
     static class TreeNode {
         int val;

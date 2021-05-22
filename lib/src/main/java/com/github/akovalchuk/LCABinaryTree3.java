@@ -3,9 +3,9 @@ package com.github.akovalchuk;
 import java.util.HashSet;
 
 /**
- * 1650. Lowest Common Ancestor of a Binary Tree III
+ * Leetcode. 1650. Lowest Common Ancestor of a Binary Tree III
  */
-public class LCABinaryTree1650 {
+public class LCABinaryTree3 {
 
     static class Node {
         public int  val;
