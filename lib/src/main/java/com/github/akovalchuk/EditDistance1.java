@@ -1,9 +1,9 @@
 package com.github.akovalchuk;
 
 /**
- * 72. Edit Distance
+ * Leetcode. 72. Edit Distance
  */
-public class EditDistance {
+public class EditDistance1 {
     
     public int minDistance(String word1, String word2) {
         if (word1 == null && word2 == null) return 0;
@@ -26,7 +26,7 @@ public class EditDistance {
     }
 
     public static void main(String[] args) {
-        var solution = new EditDistance();
+        var solution = new EditDistance1();
         System.out.println(solution.minDistance("hhoorrssee", "horse"));
     }
 
