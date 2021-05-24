@@ -15,9 +15,8 @@ public class TripletSumCloseToTarget {
         for (int i = 0; i < arr.length - 2; i++) {
             int l = i + 1;
             int r = arr.length - 1;
-            int num = arr[i];
             while (l < r) {
-                int sum = num + arr[l] + arr[r];
+                int sum = arr[i] + arr[l] + arr[r];
                 if (Math.abs(targetSum - sum) < Math.abs(targetSum - closest)) {
                     closest = sum;
                 }
