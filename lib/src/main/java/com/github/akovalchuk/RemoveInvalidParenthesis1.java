@@ -8,9 +8,9 @@ import java.util.Queue;
 import java.util.Set;
 
 /**
- * 301. Remove Invalid Parentheses
+ * Leetcode. 301. Remove Invalid Parentheses
  */
-public class ParenthesesMinRemoveReturn {
+public class RemoveInvalidParenthesis1 {
     
     private boolean isValid(String s) {
         if (s.isEmpty()) 
@@ -63,7 +63,7 @@ public class ParenthesesMinRemoveReturn {
 
 
     public static void main(String[] args) {
-        var solution = new ParenthesesMinRemoveReturn();
+        var solution = new RemoveInvalidParenthesis1();
         System.out.println(solution.removeInvalidParentheses("((()()()"));
         System.out.println(solution.removeInvalidParentheses(")()()("));
         System.out.println(solution.removeInvalidParentheses("()())()"));
