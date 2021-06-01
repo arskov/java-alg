@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Leetcode. 1233. Remove Sub-Folders from the Filesystem
  */
-public class RemoveSubfolders {
+public class RemoveSubfolders1 {
     public static class Node {
         String name;
         Set<Node> children = new HashSet<>();
