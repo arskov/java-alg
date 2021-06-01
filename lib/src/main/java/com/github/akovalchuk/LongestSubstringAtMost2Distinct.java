@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.LinkedHashMap;
 
 /**
- * 159. Longest Substring with At Most Two Distinct Characters
+ * Leetcode. 159. Longest Substring with At Most Two Distinct Characters
  */
 public class LongestSubstringAtMost2Distinct {
     /**

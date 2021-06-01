@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 588. Design In-Memory File System
+ * Leetcode. 588. Design In-Memory File System
  */
 public class InMemoryFileSystem {
 

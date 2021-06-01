@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 124. Binary Tree Maximum Path Sum
+ * Leetcode. 124. Binary Tree Maximum Path Sum
  */
 public class TreeMaxPathSum {
 

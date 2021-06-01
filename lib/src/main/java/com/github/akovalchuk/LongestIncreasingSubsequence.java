@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Educative.io. Longest Increasing Subsequence
- * <p>
+ * 
  * Given a number sequence, find the length of its Longest Increasing
  * Subsequence (LIS). In an increasing subsequence, all the elements are in
  * increasing order (from lowest to highest).

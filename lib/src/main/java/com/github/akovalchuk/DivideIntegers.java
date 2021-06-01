@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 29. Divide Two Integers
+ * Leetcode. 29. Divide Two Integers
  */
 public class DivideIntegers {
 

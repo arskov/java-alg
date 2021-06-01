@@ -9,7 +9,7 @@ import java.util.Set;
 
 /**
  * Educative.io. Reconstructing a Sequence (hard)
- * <p>
+ * 
  * Given a sequence originalSeq and an array of sequences, write a method to
  * find if originalSeq can be uniquely reconstructed from the array of
  * sequences.

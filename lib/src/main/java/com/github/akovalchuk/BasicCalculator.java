@@ -2,9 +2,8 @@ package com.github.akovalchuk;
 
 import java.util.ArrayDeque;
 
-
 /**
- * 224. Basic Calculator
+ * Leetcode. 224. Basic Calculator
  */
 public class BasicCalculator {
     

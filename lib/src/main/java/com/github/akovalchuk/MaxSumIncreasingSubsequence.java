@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Maximum Sum Increasing Subsequence
- * <p>
+ * 
  * Given a number sequence, find the increasing subsequence with the highest
  * sum. Write a method that returns the highest sum.
  */

@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 678. Valid Parenthesis String
+ * Leetcode. 678. Valid Parenthesis String
  * 
  * "(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())"
  *   

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.HashMap;
 
 /**
- * 523. Continuous Subarray Sum
+ * Leetcode. 523. Continuous Subarray Sum
  */
 public class ContiguousSubarraySumModK {
     

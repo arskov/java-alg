@@ -1,11 +1,10 @@
 package com.github.akovalchuk;
 
 /**
- * <p>
  * Educative.io. Complement of Base 10 Number (medium)
- * <p>
+ * 
  * Leetcode. 1009. Complement of Base 10 Integer
- * <p>
+ * 
  * Leetcode. 476. Number Complement
  */
 public class ComplementNumber {

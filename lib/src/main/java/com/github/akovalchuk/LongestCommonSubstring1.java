@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Longest Common Substring
- * <p>
+ * 
  * Given two strings ‘s1’ and ‘s2’, find the length of the longest substring
  * which is common in both the strings.
  */

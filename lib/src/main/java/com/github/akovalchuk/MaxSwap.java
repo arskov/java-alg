@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * 670. Maximum Swap
+ * Leetcode. 670. Maximum Swap
  */
 public class MaxSwap {
 

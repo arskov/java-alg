@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Find all Duplicate Numbers (easy)
  * 
- * 442. Find All Duplicates in an Array
+ * Leetcode. 442. Find All Duplicates in an Array
  */
 public class FindDuplicateNumbers {
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * 1102. Path With Maximum Minimum Value
+ * Leetcode. 1102. Path With Maximum Minimum Value
  */
 public class GridPathMaxMin {
 

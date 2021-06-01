@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.Arrays;
 
 /**
- * 238. Product of Array Except Self
+ * Leetcode. 238. Product of Array Except Self
  */
 public class ProductOfArrayExceptSelf {
     /*

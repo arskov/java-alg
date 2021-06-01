@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.Arrays;
 
 /**
- * 91. Decode Ways
+ * Leetcode. 91. Decode Ways
  */
 public class DecodeWays1 {
     

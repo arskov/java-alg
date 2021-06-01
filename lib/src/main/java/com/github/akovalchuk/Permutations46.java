@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Leetcode. 46. Permutations
+ */
 public class Permutations46 {
 
     private void generate(List<List<Integer>> out, int[] nums, int pos, int size) {

@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Longest Repeating Subsequence
- * <p>
+ * 
  * Given a sequence, find the length of its longest repeating subsequence (LRS).
  * A repeating subsequence will be the one that appears at least twice in the
  * original sequence and is not overlapping (i.e. none of the corresponding

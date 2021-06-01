@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 486. Predict the Winner
+ * Leetcode. 486. Predict the Winner
  */
 public class PredictWinner {
 

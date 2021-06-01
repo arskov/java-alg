@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * 721. Accounts Merge
+ * Leetcode. 721. Accounts Merge
  */
 public class MergeAccounts {
     

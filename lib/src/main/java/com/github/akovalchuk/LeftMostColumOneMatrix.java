@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 1428. Leftmost Column with at Least a One
+ * Leetcode. 1428. Leftmost Column with at Least a One
  */
 public class LeftMostColumOneMatrix {
     

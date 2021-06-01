@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.ArrayDeque;
 
 /**
- * 678. Valid Parenthesis String
+ * Leetcode. 678. Valid Parenthesis String
  * 
  * "(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())"
  *   

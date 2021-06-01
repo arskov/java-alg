@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 825. Friends Of Appropriate Ages
+ * Leetcode. 825. Friends Of Appropriate Ages
  */
 public class FriendsOfAge {
 

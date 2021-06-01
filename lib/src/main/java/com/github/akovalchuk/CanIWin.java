@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 464. Can I Win   
+ * Leetcode. 464. Can I Win   
  */
 public class CanIWin {
     

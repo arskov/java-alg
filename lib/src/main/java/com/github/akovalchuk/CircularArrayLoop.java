@@ -13,7 +13,7 @@ package com.github.akovalchuk;
  * The cycle should have more than one element and should follow one direction which means the cycle
  * should not contain both forward and backward movements.
  * 
- * 457. Circular Array Loop
+ * Leetcode. 457. Circular Array Loop
  * 
  */
 public class CircularArrayLoop {

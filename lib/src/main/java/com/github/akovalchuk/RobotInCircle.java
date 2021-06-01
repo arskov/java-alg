@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 1041. Robot Bounded In Circle
+ * Leetcode. 1041. Robot Bounded In Circle
  */
 public class RobotInCircle {
 

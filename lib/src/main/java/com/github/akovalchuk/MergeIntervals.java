@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 
 /**
- * 986. Interval List Intersections
+ * Leetcode. 986. Interval List Intersections
  */
 public class MergeIntervals {
 

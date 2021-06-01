@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * 713. Subarray Product Less Than K
+ * Leetcode. 713. Subarray Product Less Than K
  */
 public class CountArraysProdLessK {
 

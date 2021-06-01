@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 10. Regular Expression Matching
+ * Leetcode. 10. Regular Expression Matching
  */
 public class RegexpMatch10 {
 

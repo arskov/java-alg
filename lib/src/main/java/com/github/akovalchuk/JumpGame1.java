@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 55. Jump Game
+ * Leetcode. 55. Jump Game
  */
 public class JumpGame1 {
 

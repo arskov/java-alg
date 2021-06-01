@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 844. Backspace String Compare
+ * Leetcode. 844. Backspace String Compare
  * 
  * Educative.io. Comparing Strings containing Backspaces (medium)
  */

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Minimum Deletions & Insertions to Transform a String into
  * another
- * <p>
+ * 
  * Given strings s1 and s2, we need to transform s1 into s2 by deleting and
  * inserting characters. Write a function to calculate the count of the minimum
  * number of deletion and insertion operations.

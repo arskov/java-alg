@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * 1631. Path With Minimum Effort
+ * Leetcode. 1631. Path With Minimum Effort
  */
 public class GridMinEffort {
 

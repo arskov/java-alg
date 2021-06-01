@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 /**
  * Educative.io. Connect Ropes (easy)
  * 
- * 1167. Minimum Cost to Connect Sticks
+ * Leetcode. 1167. Minimum Cost to Connect Sticks
  */
 public class ConnectRopes {
     public static int minimumCostToConnectRopes(int[] ropeLengths) {

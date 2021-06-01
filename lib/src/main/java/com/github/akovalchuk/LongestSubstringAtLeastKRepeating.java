@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /*
-* 395. Longest Substring with At Least K Repeating Characters
+* Leetcode. 395. Longest Substring with At Least K Repeating Characters
 */
 public class LongestSubstringAtLeastKRepeating {
 

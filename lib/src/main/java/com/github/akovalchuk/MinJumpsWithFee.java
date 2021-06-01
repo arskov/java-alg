@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Minimum jumps with fee
- * <p>
+ * 
  * Given a staircase with ‘n’ steps and an array of ‘n’ numbers representing the
  * fee that you have to pay if you take the step. Implement a method to
  * calculate the minimum fee required to reach the top of the staircase (beyond

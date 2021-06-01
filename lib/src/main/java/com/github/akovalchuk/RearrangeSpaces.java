@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.ArrayList;
 
 /**
- * 1592. Rearrange Spaces Between Words
+ * Leetcode. 1592. Rearrange Spaces Between Words
  */
 public class RearrangeSpaces {
 

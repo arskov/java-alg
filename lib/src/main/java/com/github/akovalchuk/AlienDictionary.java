@@ -7,8 +7,9 @@ import java.util.Set;
 
 /**
  * Educative.io. Alien Dictionary (hard)
+ * 
  * Leetcode. 269. Alien Dictionary
- * <p>
+ * 
  * There is a dictionary containing words from an alien language for which we
  * don’t know the ordering of the alphabets. Write a method to find the correct
  * order of the alphabets in the alien language. It is given that the input is a

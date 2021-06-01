@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 /**
  * Educative.io. Unbounded Knapsack
- * <p>
+ * 
  * Given the weights and profits of ‘N’ items, we are asked to put these items
  * in a knapsack that has a capacity ‘C’. The goal is to get the maximum profit
  * from the items in the knapsack. The only difference between the 0/1 Knapsack

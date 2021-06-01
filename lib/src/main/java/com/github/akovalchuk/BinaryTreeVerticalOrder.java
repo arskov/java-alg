@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.TreeMap;
 
 /* 
-314. Binary Tree Vertical Order Traversal
-*/
+ * Leetcode. 314. Binary Tree Vertical Order Traversal
+ */
 public class BinaryTreeVerticalOrder {
 
     static class TreeNode {

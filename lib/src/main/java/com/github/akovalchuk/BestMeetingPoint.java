@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.ArrayList;
 
 /**
- * 296. Best Meeting Point
+ * Leetcode. 296. Best Meeting Point
  */
 public class BestMeetingPoint {
     

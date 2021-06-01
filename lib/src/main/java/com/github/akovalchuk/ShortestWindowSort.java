@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Minimum Window Sort (medium)
  * 
- * 581. Shortest Unsorted Continuous Subarray
+ * Leetcode. 581. Shortest Unsorted Continuous Subarray
  */
 public class ShortestWindowSort {
 

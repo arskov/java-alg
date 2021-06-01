@@ -5,7 +5,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-
+/**
+ * Leetcode. 140. Word Break II
+ */
 public class WordBreak1 {
     
     public boolean wordBreak(String s, List<String> wordDict) {

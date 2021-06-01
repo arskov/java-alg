@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /**
- * 987. Vertical Order Traversal of a Binary Tree
+ * Leetcode. 987. Vertical Order Traversal of a Binary Tree
  */
 public class VerticalOrderTraversalBinaryTree {
 

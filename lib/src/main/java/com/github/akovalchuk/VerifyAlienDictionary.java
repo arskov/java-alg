@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 953. Verifying an Alien Dictionary
+ * Leetcode. 953. Verifying an Alien Dictionary
  */
 public class VerifyAlienDictionary {
     

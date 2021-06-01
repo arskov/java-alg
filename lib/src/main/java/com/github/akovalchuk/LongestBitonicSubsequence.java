@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Longest Bitonic Subsequence
- * <p>
+ * 
  * Given a number sequence, find the length of its Longest Bitonic Subsequence
  * (LBS). A subsequence is considered bitonic if it is monotonically increasing
  * and then monotonically decreasing.

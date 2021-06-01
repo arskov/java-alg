@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- *  1197. Minimum Knight Moves
+ *  Leetcode. 1197. Minimum Knight Moves
  */
 public class MinKnightMoves2 {
 

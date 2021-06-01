@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Minimum Deletions in a String to make it a Palindrome
- * <p>
+ * 
  * Given a string, find the minimum number of characters that we can remove to
  * make it a palindrome.
  */

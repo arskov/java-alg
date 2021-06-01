@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 65. Valid Number
+ * Leetcode. 65. Valid Number
  */
 public class ValidNumber {
 

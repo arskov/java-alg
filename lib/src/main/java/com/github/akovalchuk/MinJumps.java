@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Minimum jumps to reach the end
- * <p>
+ * 
  * Given an array of positive numbers, where each element represents the max
  * number of jumps that can be made forward from that element, write a program
  * to find the minimum number of jumps needed to reach the end of the array

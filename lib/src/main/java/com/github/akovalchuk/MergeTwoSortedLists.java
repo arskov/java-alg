@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 21. Merge Two Sorted Lists
+ * Leetcode. 21. Merge Two Sorted Lists
  */
 public class MergeTwoSortedLists {
 

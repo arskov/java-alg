@@ -6,7 +6,7 @@ package com.github.akovalchuk;
 import java.util.Stack;
 
 /**
- * 1249. Minimum Remove to Make Valid Parentheses
+ * Leetcode. 1249. Minimum Remove to Make Valid Parentheses
  */
 public class ParenthesesMinRemoveI {
 

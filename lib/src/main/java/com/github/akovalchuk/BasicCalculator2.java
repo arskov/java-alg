@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.ArrayDeque;
 
 /**
- * 227. Basic Calculator II
+ * Leetcode. 227. Basic Calculator II
  */
 public class BasicCalculator2 {
     

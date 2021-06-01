@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 938. Range Sum of BST
+ * Leetcode. 938. Range Sum of BST
  */
 public class RangeSumOfBST {
     static class TreeNode {

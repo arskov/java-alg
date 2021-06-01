@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.Arrays;
 
 /**
- * 311. Sparse Matrix Multiplication
+ * Leetcode. 311. Sparse Matrix Multiplication
  */
 public class SparseMatrixMultiplication {
 

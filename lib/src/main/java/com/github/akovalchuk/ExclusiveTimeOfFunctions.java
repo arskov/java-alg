@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * 636. Exclusive Time of Functions
+ * Leetcode. 636. Exclusive Time of Functions
  */
 public class ExclusiveTimeOfFunctions {
     

@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 53. Maximum Subarray
+ * Leetcode. 53. Maximum Subarray
  */
 public class MaxSubArray {
     

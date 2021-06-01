@@ -2,14 +2,14 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Number factors
- * <p>
+ * 
  * Given a number ‘n’, implement a method to count how many possible ways there
  * are to express ‘n’ as the sum of 1, 3, or 4.
- * <p>
+ * 
  * Write a function to calculate the nth Fibonacci number. Fibonacci numbers are
  * a series of numbers in which each number is the sum of the two preceding
  * numbers. First few Fibonacci numbers are: 0, 1, 1, 2, 3, 5, 8
- * <p>
+ * 
  * Given a stair with ‘n’ steps, implement a method to count how many possible
  * ways are there to reach the top of the staircase, given that, at every step
  * you can either take 1 step, 2 steps, or 3 steps.

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Start of LinkedList Cycle (medium)
  * 
- * 142. Linked List Cycle II
+ * Leetcode. 142. Linked List Cycle II
  */
 public class LinkedListCycleStart {
 

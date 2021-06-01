@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.HashMap;
 
 /**
- * 325. Maximum Size Subarray Sum Equals k
+ * Leetcode. 325. Maximum Size Subarray Sum Equals k
  */
 public class MaxSubArraySumEqK {
 

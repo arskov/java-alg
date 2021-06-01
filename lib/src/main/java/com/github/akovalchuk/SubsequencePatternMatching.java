@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Subsequence Pattern Matching
- * <p>
+ * 
  * Given a string and a pattern, write a method to count the number of times the
  * pattern appears in the string as a subsequence.
  * 

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Rearrange a LinkedList (medium)
  * 
- * 143. Reorder List
+ * Leetcode. 143. Reorder List
  */
 public class RearrangeLinkedList {
     

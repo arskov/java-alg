@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 896. Monotonic Array
+ * Leetcode. 896. Monotonic Array
  */
 public class MonotonicArray {
     

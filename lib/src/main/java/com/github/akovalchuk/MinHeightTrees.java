@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * Educative.io. Minimum Height Trees (hard)
- * <p>
+ * 
  * We are given an undirected graph that has characteristics of a k-ary tree. In
  * such a graph, we can choose any node as the root to make a k-ary tree. The
  * root (or the tree) with the minimum height will be called Minimum Height Tree

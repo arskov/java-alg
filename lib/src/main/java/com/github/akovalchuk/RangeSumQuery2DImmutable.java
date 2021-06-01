@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 304. Range Sum Query 2D - Immutable
+ * Leetcode. 304. Range Sum Query 2D - Immutable
  */
 public class RangeSumQuery2DImmutable {
 

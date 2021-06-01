@@ -2,8 +2,9 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Palindromic Partitioning
+ * 
  * Leetcode. 132. Palindrome Partitioning II
- * <p>
+ * 
  * Given a string, we want to cut it into pieces such that each piece is a
  * palindrome. Write a function to return the minimum number of cuts needed.
  */

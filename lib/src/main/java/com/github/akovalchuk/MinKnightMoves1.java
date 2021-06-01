@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Objects;
 
 /**
- * 1197. Minimum Knight Moves 
+ * Leetcode. 1197. Minimum Knight Moves 
  * 
  * This is not optimal BFS solution
  */

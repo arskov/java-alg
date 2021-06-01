@@ -3,9 +3,8 @@ package com.github.akovalchuk;
 import java.util.PriorityQueue;
 
 /**
- * <p>
  * Educative.io. Kth Largest Number in a Stream (medium)
- * <p>
+ * 
  * Leetcode. 703. Kth Largest Element in a Stream
  */
 public class KthLargestNumberInStream {

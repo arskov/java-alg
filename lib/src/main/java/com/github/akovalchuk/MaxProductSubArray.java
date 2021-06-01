@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 152. Maximum Product Subarray
+ * Leetcode. 152. Maximum Product Subarray
  */
 public class MaxProductSubArray {
     

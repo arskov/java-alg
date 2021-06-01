@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * 249. Group Shifted Strings
+ * Leetcode. 249. Group Shifted Strings
  */
 public class GroupShiftedStrings {
 

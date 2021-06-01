@@ -2,7 +2,7 @@ package com.github.akovalchuk;
 
 /**
  * Educative.io. Minimum Deletions to Make a Sequence Sorted
- * <p>
+ * 
  * Given a number sequence, find the minimum number of elements that should be
  * deleted to make the remaining sequence sorted.
  */

@@ -6,7 +6,7 @@ import java.util.function.BiFunction;
 import static java.lang.System.out;
 
 /**
- * 560. Subarray Sum Equals K
+ * Leetcode. 560. Subarray Sum Equals K
  */
 public class SubArraySumEqualsK {
 

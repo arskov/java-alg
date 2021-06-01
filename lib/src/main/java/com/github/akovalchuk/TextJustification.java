@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 68. Text Justification
+ * Leetcode. 68. Text Justification
  */
 public class TextJustification {
     

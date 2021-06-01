@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 785. Is Graph Bipartite?
+ * Leetcode. 785. Is Graph Bipartite?
  */
 public class BipartiteGraph {
 

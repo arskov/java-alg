@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 /**
  * Educative.io. Path with Maximum Sum (hard) 
  * 
- * 124. Binary Tree Maximum Path Sum
+ * Leetcode. 124. Binary Tree Maximum Path Sum
  */
 public class TreeMaximumPathSum {
 

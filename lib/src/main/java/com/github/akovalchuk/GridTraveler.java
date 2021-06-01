@@ -1,8 +1,7 @@
 package com.github.akovalchuk;
 
-
 /**
- * 62. Unique Paths
+ * Leetcode. 62. Unique Paths
  */
 public class GridTraveler {
 

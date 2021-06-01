@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * 763. Partition Labels
+ * Leetcode. 763. Partition Labels
  */
 public class PartitionLabels {
     /**

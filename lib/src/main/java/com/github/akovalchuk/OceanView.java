@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 1762. Buildings With an Ocean View
+ * Leetcode. 1762. Buildings With an Ocean View
  */ 
 public class OceanView {
 

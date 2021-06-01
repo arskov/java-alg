@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * Educative.io. Tasks Scheduling (medium)
- * <p>
+ * 
  * There are ‘N’ tasks, labeled from ‘0’ to ‘N-1’. Each task can have some
  * prerequisite tasks which need to be completed before it can be scheduled.
  * Given the number of tasks and a list of prerequisite pairs, find out if it is

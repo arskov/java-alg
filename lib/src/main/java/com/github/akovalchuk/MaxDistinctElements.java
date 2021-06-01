@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * Educative.io. Maximum Distinct Elements (medium)
  * 
- * 1481. Least Number of Unique Integers after K Removals (Similar but a kind of reversed)
+ * Leetcode. 1481. Least Number of Unique Integers after K Removals (Similar but a kind of reversed)
  */
 public class MaxDistinctElements {
     public static int findMaximumDistinctElements(int[] nums, int k) {

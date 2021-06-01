@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 340. Longest Substring with At Most K Distinct Characters
+ * Leetcode. 340. Longest Substring with At Most K Distinct Characters
  */
 public class LongestSubstringAtMostKRepeating {
     /*

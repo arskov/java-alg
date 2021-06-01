@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 199. Binary Tree Right Side View
+ * Leetcode. 199. Binary Tree Right Side View
  */
 public class TreeRightSideView {
 

@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.Random;
 
 /**
- * 462. Minimum Moves to Equal Array Elements II
+ * Leetcode. 462. Minimum Moves to Equal Array Elements II
  */
 public class MinMovesEqualArrayElements {
     

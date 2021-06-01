@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 1539. Kth Missing Positive Number
+ * Leetcode. 1539. Kth Missing Positive Number
  */
 public class KthMissingPositive {
 

@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
- * 358. Rearrange String k Distance Apart
+ * Leetcode. 358. Rearrange String k Distance Apart
  */
 public class RearrangeStringKDist {
 

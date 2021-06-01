@@ -3,7 +3,7 @@ package com.github.akovalchuk;
 import java.util.Arrays;
 
 /**
- * 45. Jump Game II
+ * Leetcode. 45. Jump Game II
  */
 public class JumpGame2 {
 

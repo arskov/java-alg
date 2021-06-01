@@ -1,7 +1,7 @@
 package com.github.akovalchuk;
 
 /**
- * 415. Add Strings
+ * Leetcode. 415. Add Strings
  */
 public class AddStrings {
     
